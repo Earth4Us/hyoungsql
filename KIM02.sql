@@ -87,4 +87,8 @@ ORDER BY T1.ORDINAL_POSITION;
 INSERT INTO STOCK_TAG
         (STK_CD, STK_TAG_DV_NM, STK_TAG_NM, USE_YN, REG_DTM)
 VALUES  ('006400', 'samsung', '2nd Battery', 'Y', NOW());
-status
+show tables; 
+DROP TABLE IF EXISTS new_table;
+show tables;
+use DB_SQLSTK;
+select STK_TAG_DV_NM from STOCK_TAG;
